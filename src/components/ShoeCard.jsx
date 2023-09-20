@@ -1,0 +1,7 @@
+const ShoeCard = () => (
+    <div>
+        ShoeCard
+    </div>
+)
+
+export default ShoeCard
