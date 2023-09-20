@@ -1,5 +1,4 @@
-import React from 'react'
-import {CustomerReviews,Footer,Hero,PopulrProducts,Services,SpecialOffer,Subscribe,SuperQuality} from './sections'
+import {CustomerReviews,Footer,Hero,PopularProducts,Services,SpecialOffer,Subscribe,SuperQuality} from './sections'
 import Nav from './components/Nav';
 
 const App = () => (
@@ -24,7 +23,7 @@ const App = () => (
   </section>  
   
   <section className="padding">
-    <SpecialOffers/>
+    <SpecialOffer/>
   </section>
 
   <section className="bg-pale-blue padding">
@@ -39,6 +38,7 @@ const App = () => (
     <Footer/>
   </section>
 
-  </main>
-);
+   </main> 
+
+  );
 export default App 
