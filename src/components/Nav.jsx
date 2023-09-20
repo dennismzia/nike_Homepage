@@ -1,5 +1,6 @@
 import {headerLogo} from '../assets/images';
 import {hamburger} from '../assets/icons';
+import {navLinks} from '../constants';
 
 const Nav = () => (
         <header className="padding-x py-8 absolute z-10 w-full">
@@ -14,8 +15,10 @@ const Nav = () => (
                     <li key={item.label}>
                         <a 
                         href={item.href}
-                        className="font-montserrat leading-normal text-lg"
-                        ></a>
+                        className="font-montserrat leading-normal text-lg text-slate-300"
+                        >
+                            {item.label}
+                        </a>
 
                     </li>
                 ))}
