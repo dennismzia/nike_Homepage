@@ -1,6 +1,6 @@
 import React from 'react'
 
-const ReviewCard = () => {
+const ReviewCard = ({ imgURL, customerName, rating, feedback }) => {
   return (
     <div>ReviewCard</div>
   )
