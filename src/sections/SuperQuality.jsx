@@ -1,5 +1,6 @@
 import Button from "../components/Button";
 import {arrowRight} from '../assets/icons';
+import { shoe8 } from "../assets/images";
 
 const SuperQuality = () => {
   return (
@@ -25,8 +26,16 @@ const SuperQuality = () => {
   </p>
     <div>
     <Button label="View details" />
+    </div>
+
+    <div className="flex-1 flex justify-center items-center">
+      <img src={shoe8} alt="shoe8"
+      width={570}
+      height={522} className="object-contain" />
 
     </div>
+
+
 
     </div>
 
