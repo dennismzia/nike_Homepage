@@ -1,10 +1,25 @@
-const ShoeCard = ({imgURL, changeBigShoeImage, bigShoeImage}) => (
+import React from 'react'
+
+const ShoeCard = ({imgURL, changeBigShoeImage, bigShoeImg}) => {
+    const handleClick = () => {
+        if (bigShoeImg !== imgURL.bigShoe){
+            changeBigShoeImage(imgURL.bigShoe)
+        }
+    }
+
+
+  return (
     <div className={`border-2 rounded-xl
-        ${bigShoeImage === imgURL ? 'border-coral-red':'border-transparent'
+         ${bigShoeImg === imgURL ? 'border-coral-red':'border-transparent'
         } cursor-pointer max-sm:flex-1
-    `}>
-        ShoeCard
+    `} 
+     onClick={handleClick}   
+    >
+        <div>
+            
+        </div>
     </div>
-)
+  )
+}
 
 export default ShoeCard
