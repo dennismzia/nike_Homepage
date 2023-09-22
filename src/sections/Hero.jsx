@@ -10,6 +10,8 @@ import { bigShoe1 } from '../assets/images';
 
 const Hero = () => {
 
+  const [bigShoeImg, setBigShoeImg] = useState(bigShoe1)
+
   return (
     <section 
     id="home"
