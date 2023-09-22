@@ -1,6 +1,6 @@
-import {} from '../constants';
 import {offer} from '../assets/images';
 import Button from '../components/Button';
+import { arrowRight } from "../assets/icons";
 
 
 const SpecialOffer = () => {
