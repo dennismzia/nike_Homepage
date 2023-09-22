@@ -1,6 +1,8 @@
 import {reviews} from '../constants';
 import ReviewCard from '../assets/ReviewCard';
+
 const CustomerReviews = () => {
+
   return (
     <section className="max-container">
 
