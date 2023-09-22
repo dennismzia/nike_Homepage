@@ -1,4 +1,5 @@
 import Button from "../components/Button";
+import {useState} from 'react'; 
 import ShoeCard from "../components/ShoeCard";
 import  {arrowRight} from '../assets/icons';
 import { shoes, statistics } from '../constants';
@@ -6,7 +7,10 @@ import { bigShoe1 } from '../assets/images';
 
 
 
-const Hero = () => (
+
+const Hero = () => {
+
+  return (
     <section 
     id="home"
     className="w-full flex xl:flex-row flex-col justify-center min-h-screen gap-10 max-container  p-2"
@@ -38,7 +42,7 @@ const Hero = () => (
       <img src={bigShoe1} alt="shoe collection" width={610} height={500} className="object-contain relative z-10" />
     </div>
 
-    <div>
+    <div className="flex sm:gap-6 gap-4 absolute -bottom-[5%] sm:left-[10%] max-sm:px-6" >
       {shoes.map((shoe) => (
         <div key={shoe}>
           <ShoeCard 
@@ -52,5 +56,5 @@ const Hero = () => (
 
     </section>
   )
-  
+}
   export default Hero
