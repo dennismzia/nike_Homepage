@@ -24,7 +24,7 @@ const App = () => (
     </section>  
     
     <section className="padding-x py-10">
-      {/* <Services /> */}
+      <Services />
     </section>  
     
     <section className="padding">
