@@ -1,8 +1,8 @@
 import React from 'react'
 
-const PopularProductCard = () => {
+const PopularProductCard = ({imgURL, name,price}) => {
   return (
-    <div>PopularProductCard</div>
+    <div className="flex flex-1">PopularProductCard</div>
   )
 }
 
