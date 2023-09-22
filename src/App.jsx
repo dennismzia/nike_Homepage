@@ -1,7 +1,7 @@
 import React from 'react';
 import Nav from './components/Nav';
 
-import { Hero} from './sections';
+import {CustomerReviews,Footer,Hero,PopularProducts,Services,SpecialOffer,Subscribe,SuperQuality} from './sections'
 
 
 
