@@ -16,7 +16,7 @@ const App = () => (
       </section>
   
     <section className="padding">
-      {/* <PopularProducts /> */}
+      <PopularProducts />
     </section>  
   
     <section className="padding">
