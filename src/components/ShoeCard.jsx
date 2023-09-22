@@ -15,8 +15,12 @@ const ShoeCard = ({imgURL, changeBigShoeImage, bigShoeImg}) => {
     `} 
      onClick={handleClick}   
     >
-        <div>
-            
+        <div >
+            <img src={imgURL.thumbnail} alt="shoe collection"
+            width={127}
+            height={103}
+            className="object-contain"
+             />
         </div>
     </div>
   )
