@@ -36,7 +36,6 @@ const SuperQuality = () => {
     </div>
 
 
-
     </div>
 
     </section>
